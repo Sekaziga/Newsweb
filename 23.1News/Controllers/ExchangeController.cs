@@ -53,7 +53,7 @@ namespace _23._1News.Controllers
         //}
 
 
-        
+
         [Route("gh")]
 
         public async Task<ActionResult> GetHostorical(Dictionary<string, decimal> exchangeRates, DateTime date)
